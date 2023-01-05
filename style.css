@@ -78,6 +78,9 @@ body{
 .card:hover i:nth-child(2){
     right:20px;
 }
+ img {
+    pointer-events: none
+  }
 .image{
     display:flex;
     justify-content:center;
@@ -85,6 +88,7 @@ body{
     flex-direction:column;
     height:180px;
     width:100%;
+    
 }
 .image span{
     height:90px;
